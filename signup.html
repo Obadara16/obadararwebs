@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+  <title>Registration</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css"> 	
+  <link rel="stylesheet" href="css/style.css">	
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>	
+  <script src="js/jquery-1.11.3.min.js"></script>
+</head>
+
+<body>
+<div class="top"><a href="login.html"><span>Student</span></a> |  <a href="#"><span>Mail</span></a>  </div>
+<div class="logo" align="center"><img src="img/logo.jpg" /></div>
+
+<div class="navdrop">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Academics<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="academics.html">Undergraduate</a></li>
+          <li><a href="#">Postgraduate</a></li>
+          <li><a href="#">Distance Learning</a></li>
+        </ul>
+      </li>
+      <li><a href="administration.html">Administration</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</div>
+</br>
+
+<div class="wide-bar2">
+<div class="signup">
+<h1 style="color:dodgerblue;">Student Registration:</h1>
+<br/>
+<form method="post" action="admission.html">
+<lable>Full Name:</lable>
+<input type="text" class="wrap" name="fullname" required="required"/>
+<br/><br/><br/>
+<lable>Jamb Reg No:</lable>
+<input type="text" class="wrap" name="regno" required="required"/>
+<br/><br/><br/>
+<lable>Username:</lable>
+<input type="text" class="wrap" name="username" required="required" placeholder="Select a Username" />
+<br/><br/><br/>
+<lable>Password:</lable>
+<input name="username" class="wrap" type="password" required="required" />
+<br/><br/><br/>
+<lable>Gender:</lable>
+<select name="Gender">
+    <option value="">Male</option>
+    <option value="">Female</option>
+  </select>
+<br><br><br>
+<lable>Email:</lable>
+<input type="text" class="wrap" name="email" required="required"/>
+<br/><br/><br/>
+<lable>Phone Number:</lable>
+<input type="number" class="wrap" name="phoneno" required="required" maxlength="11" />
+<br/><br/><br/><br>
+
+
+<button type="submit" value="submit">Submit</button>
+<br/><br/>
+<a href="forget.html">forget Password/ cant acces my Page</a>
+</form>
+</div>
+</div>
+
+
+<div>
+<hr/>
+
+<footer align="center"><div><span>&copy; 2018. All Right Reserved</span> | <span>Project By: Bose Ojekunle Sherifa</span></div></footer>
+</body>
+</html>
